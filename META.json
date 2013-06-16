@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "substitute strings in a file into 'one piece'-ed.",
    "author" : [
       "hidehigo <hidehigo@cpan.org>"
    ],
@@ -62,5 +62,5 @@
          "web" : "ssh://git@github.com/hidehigo/Acme-OnePiece"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
