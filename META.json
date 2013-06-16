@@ -54,12 +54,12 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "ssh://git://github.com/hidehigo/Acme-OnePiece/issues"
+         "web" : "ssh://git@github.com/hidehigo/Acme-OnePiece/issues"
       },
-      "homepage" : "ssh://git://github.com/hidehigo/Acme-OnePiece",
+      "homepage" : "ssh://git@github.com/hidehigo/Acme-OnePiece",
       "repository" : {
-         "url" : "ssh://git://github.com/hidehigo/Acme-OnePiece.git",
-         "web" : "ssh://git://github.com/hidehigo/Acme-OnePiece"
+         "url" : "ssh://git@github.com/hidehigo/Acme-OnePiece.git",
+         "web" : "ssh://git@github.com/hidehigo/Acme-OnePiece"
       }
    },
    "version" : "0.01"
