@@ -52,5 +52,15 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/hidehigo/Acme-OnePiece/issues"
+      },
+      "homepage" : "https://github.com/hidehigo/Acme-OnePiece",
+      "repository" : {
+         "url" : "https://github.com/hidehigo/Acme-OnePiece.git",
+         "web" : "https://github.com/hidehigo/Acme-OnePiece"
+      }
+   },
    "version" : "0.01"
 }
