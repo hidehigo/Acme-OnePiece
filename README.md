@@ -12,7 +12,9 @@ Acme::OnePiece - substitute strings in a file into 'one piece'-ed.
 # DESCRIPTION
 
 Acme::OnePiece is ...
+
 you can get strings concatenated by '-' from a file.
+
 this makes entirely no sense...
 
 # METHODS

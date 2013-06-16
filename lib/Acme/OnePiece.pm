@@ -52,7 +52,9 @@ Acme::OnePiece - substitute strings in a file into 'one piece'-ed.
 =head1 DESCRIPTION
 
 Acme::OnePiece is ...
+
 you can get strings concatenated by '-' from a file.
+
 this makes entirely no sense...
 
 =head1 METHODS
