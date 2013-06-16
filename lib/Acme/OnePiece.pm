@@ -3,9 +3,35 @@ use 5.008005;
 use strict;
 use warnings;
 
+use IO::File;
+
 our $VERSION = "0.01";
 
+sub _options {
+  return {}
+}
 
+sub new {
+  my $class = shift;
+  my $file = shift;
+  my $options = $class->_options;
+
+  my $io = IO::File->new($file, 'r') or die "Usage: Acme::OnePiece->new(\$filename)\n" . $!;
+  my @lines = $io->getlines;
+  my $contents = join('',@lines);
+  $options->{contents} = $contents;
+
+  my $self = bless $options, $class;
+  return $self;
+}
+
+sub onepiece {
+  my ($self) = @_;
+  my $contents = $self->{contents};
+  $contents =~ s/(\n|\s)//g;
+  print $contents;
+  return;
+}
 
 1;
 __END__
